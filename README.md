@@ -1,3 +1,3 @@
-# bgdshka.github.io
+# BGDSHKA.github.io
 
 Сайт-визитка
