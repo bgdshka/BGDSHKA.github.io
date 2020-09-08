@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    background: url("glitch.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+
+  
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.intro__title {
+    margin: 0;
+
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.head
+{
+     top: 9%;
+      left: 9%;
+      margin-left: 31%;
+      margin-top: 5%;
+      background-image: url(glitch.jpg);
+     position: absolute;
+     color: white;
+
+}
+a
+{
+    text-decoration: none;
+}
+
+.button
+{
+    top: 25%;
+    left: 20%;
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 5%;
+}
+h1
+{
+ text-align: right;
+ color: azure
+}
+h1:hover
+{
+    background-color: red;
+    
+}
+
+.popup {
+    position: relative;
+   width: 600px;
+   margin-left: 20%;
+    margin-top: -16%;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    position: relative;
+    max-width: 250px;
+    border: 1px solid #71653a;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: -25%;
+    padding: 20px;
+    color: #71653a;
+    background-color: #fff1be;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+.right {
+    visibility: hidden;
+    position: relative;
+    border-right: 20px solid #fff1be;
+    border-top: 20px solid rgba(255, 241, 190, 0);
+    border-bottom: 20px solid rgba(255, 241, 190, 0);
+    z-index: 1;
+    left: -385px;
+    top: -90px;
+    
+}
+
+.right .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@media(max-width:766px){
+    .popup {
+        position: relative;
+       width: 600px;
+       margin-left: 10%;
+        margin-top: -15%;
+    }
+    }
+
+    @media(min-width:1680px){
+        .popup {
+            position: relative;
+           width: 600px;
+           margin-left: 22%;
+            margin-top: -25%;
+        }
+        }

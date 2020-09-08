@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video Background</title>
+</head>
+
+<body>
+
+    <script>
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+            var popup2 = document.getElementById("arrow");
+            popup2.classList.toggle("show");
+
+        }
+
+    </script>
+
+    <div class="intro">
+        <div class="video">
+            <video class="video__media" src="video.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="intro__content">
+            <div class="popup">
+                <div class="right" id="arrow"></div>
+                <p class="popuptext" id="myPopup"><b>Привет!</b></br> Я &ndash; Программист</br> Cтудент ИТМО </br>
+                    React, Redux, SQL, PHP</p>
+            </div>
+
+            <div class="button">
+                <a onClick="myFunction()">
+                    <h1>Обо мне</h1>
+                </a>
+                <a href="http://github.com/BGDSHKA/">
+                    <h1>Мой github</h1>
+                </a>
+                <a href="https://t-do.ru/bgdshka">
+                    <h1>Мой telegram</h1>
+                </a>
+                <a href="https://vk.com/id49794250">
+                    <h1>Мой вк</h1>
+                </a>
+                <a href="mailto:g810bAKO@yandex.ru">
+                    <h1>Email</h1>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
