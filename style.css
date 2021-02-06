@@ -87,7 +87,7 @@ a
 .button
 {
     top: 25%;
-    left: 20%;
+    left: 25%;
     position: absolute;
     margin-left: 31%;
     margin-top: 5%;
@@ -115,9 +115,10 @@ h1:hover
     position: relative;
     max-width: 250px;
     border: 1px solid #71653a;
+    font-size: 11px;
     border-radius: 5px;
     margin-left: 35%;
-    margin-top: -25%;
+    margin-top: -10%;
     padding: 20px;
     color: #71653a;
     background-color: #fff1be;
@@ -150,7 +151,7 @@ h1:hover
     border-bottom: 20px solid rgba(255, 241, 190, 0);
     z-index: 1;
     left: -385px;
-    top: -90px;
+    top: 90px;
     
 }
 
@@ -167,13 +168,31 @@ h1:hover
        margin-left: 10%;
         margin-top: -15%;
     }
+
+    .popup .popuptext {
+        font-size: 6px;
+    
     }
 
-    @media(min-width:1680px){
+    .right {
+        visibility: hidden;
+        position: relative;
+        border-right: 20px solid #fff1be;
+        border-top: 20px solid rgba(255, 241, 190, 0);
+        border-bottom: 20px solid rgba(255, 241, 190, 0);
+        z-index: 1;
+        left: -385px;
+        top: 20px;
+        
+    }
+    }
+
+    @media(min-width:1680px) and (max-width: 1979){
         .popup {
             position: relative;
            width: 600px;
            margin-left: 22%;
             margin-top: -25%;
         }
+
         }
