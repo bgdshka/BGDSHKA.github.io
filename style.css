@@ -107,7 +107,7 @@ h1:hover
     position: relative;
    width: 600px;
    margin-left: 20%;
-    margin-top: -16%;
+    margin-top: -4%;
 }
 
 .popup .popuptext {
@@ -151,7 +151,7 @@ h1:hover
     border-bottom: 20px solid rgba(255, 241, 190, 0);
     z-index: 1;
     left: -385px;
-    top: 90px;
+    top: 54px;
     
 }
 
