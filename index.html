@@ -11,7 +11,7 @@
 <body>
 
     <script>
-        function myFunction() {
+        function showPopup() {
             var popup = document.getElementById("myPopup");
             popup.classList.toggle("show");
             var popup2 = document.getElementById("arrow");
@@ -29,19 +29,48 @@
         <div class="intro__content">
             <div class="popup">
                 <div class="right" id="arrow"></div>
-                <div class="popuptext" id="myPopup"><b>Hello!</b></br> I'm &ndash; full-stack developer, but more specialized in frontend.</br> ITMO student </br>
+                <div class="popuptext" id="myPopup"><b>Hello!</b></br> Fullstack T-shaped developer, but more
+                    specialized in frontend.</br> ITMO student </br>
                     <strong>Fronted:</strong>
-<ul><li><strong></strong>JavaScript (ES6+)</li><li>ReactJS</li><li>Redux (Formik, Redux-Form,&nbsp;Thunk, Redux-Saga,&nbsp;reselect)</li><li>Styled-Components / CSS-modules</li><li>Twitter Bootstrap /&nbsp;Material-UI<br></li><li>Webpack<strong><br></strong></li></ul>
-<strong>Backend:</strong>
-<ul><li>SQL</li><li>PHP</li><li>MySQL / PostgreSQL /&nbsp;MS SQL&nbsp;</li></ul>
-<strong>Other skills:</strong>
-<ul><li>Git / GitHub</li><li>BEM (CSS)</li><li>Information systems design (BPMN, UML)</li><li>Agile&nbsp;methodologies (Scrum, Kanban, XP)</li></ul>
+                    <ul>
+                        <li><strong></strong>JavaScript / TypeScript</li>
+                        <li>React</li>
+                        <li>Redux / Redux-saga / Redux-Form / Formik / Thunk / reselect</li>
+                        <li>Material-UI / Twitter Bootstrap</li>
+                        <li>Jest / Enzyme / Puppeteer<br></li>
+                        <li>Styled-Components / PostCSS / CSS-modules</li>
+                        <li>Webpack / Babel / Razzle / Vite</li>
+                        <li>SSR / SPA</li>
+                        <li>Next.js / After.js</li>
+                    </ul>
+                    <strong>Backend:</strong>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Node js / Express</li>
+                        <li>SQL / noSQL</li>
+                        <li>MySQL / PostgreSQL / MongoDB</li>
+                    </ul>
+                    <strong>Other skills:</strong>
+                    <ul>
+                        <li>English (B2)</li>
+                        <li>Git / GitHub</li>
+                        <li>BEM (CSS)</li>
+                        <li>Agile methodologies: Scrum / Kanban / OKR / XP</li>
+                        <li>Heroku staging pipelines</li>
+                        <li>Information systems design BPMN / UML</li>
+                        <li>Machine Learning / Deep learning</li>
+                        <li>ClickUp</li>
+                    </ul>
 
-            </div></div>
+                </div>
+            </div>
 
             <div class="button">
-                <a onClick="myFunction()">
+                <a onClick="showPopup()">
                     <h1>Обо мне</h1>
+                </a>
+                <a href="https://career.habr.com/bgdshka">
+                    <h1>Habr career</h1>
                 </a>
                 <a href="http://github.com/BGDSHKA/">
                     <h1>Мой github</h1>
